@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="content-wrapper">
+        <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="username">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Title</mat-label>
+            <input matInput [(ngModel)]="title">
+        </mat-form-field>
+        <quill-editor [(ngModel)]="content"></quill-editor> 
+        <div>
+            <button mat-button class="post-button" (click)="createBlog()">Post</button>
+        </div>
+    </div>
+
+</div>

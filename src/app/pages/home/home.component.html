@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="content-wrapper">
+      <button mat-button class="create-button" routerLink="/createblog">Create Blog</button>
+      <div class="card" *ngFor="let blog of this.blogService.blogData;let i =index;" [routerLink]="'/view/'+i">
+        <div class="title">{{blog.title}}</div>
+            <div class="author">{{blog.author}}</div>
+            <!-- 
+                <div class="content">
+              {{blog.content|json}}
+                
+                </div> -->
+      </div>
+    </div>
+</div>

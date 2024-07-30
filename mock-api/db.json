@@ -1,0 +1,43 @@
+{
+  "blogs": [
+    {
+      "id": "8b9a",
+      "author": "Pavana",
+      "title": "Pavana Blog",
+      "content": "<p>This is my first content</p>",
+      "comments": [
+        {
+          "username": "sdsadsasdd",
+          "comment": "sdsadsad"
+        },
+        {
+          "username": "Ananya",
+          "comment": "This blogis good"
+        },
+        {
+          "username": "AAAAA",
+          "comment": "sdsdsadasd"
+        }
+      ]
+    },
+    {
+      "id": "9346",
+      "author": "adasd",
+      "title": "sadsad",
+      "content": "<p>asdsadsa</p>",
+      "comments": []
+    },
+    {
+      "id": "b47e",
+      "author": "Bhoomika",
+      "title": "Angular Introduction",
+      "content": "<p class=\"ql-align-justify\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue leo vitae lacus lobortis, sed volutpat est ultrices. Sed lectus massa, lobortis a nulla at, faucibus commodo leo. Ut bibendum, sem eget pretium fermentum, nisi nisi laoreet metus, ullamcorper tempus metus tortor id ligula. Phasellus eget mollis purus. Etiam vitae porta lorem. Nulla ullamcorper tristique tortor efficitur ullamcorper. In nec ex vel magna tincidunt posuere sed sed nunc. Ut cursus arcu a imperdiet dignissim. Donec ac sem urna. Praesent at nisl interdum, condimentum purus sit amet, malesuada mi. In volutpat lorem quis odio tincidunt iaculis. Duis cursus iaculis enim ut condimentum. Fusce id egestas nisi.</p><p class=\"ql-align-justify\">Nunc vel libero rhoncus, tincidunt urna nec, malesuada leo. Duis eu nisi eget sem ornare laoreet non quis ex. Morbi vehicula arcu purus, in gravida urna porta ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer luctus sapien quis sodales consectetur. Praesent sed magna eget nisl bibendum tincidunt. Integer leo nibh, tempus vitae risus eget, ornare ultricies nisl. Curabitur efficitur augue et tellus rhoncus pellentesque. Cras et congue ex.</p><p class=\"ql-align-justify\">Vivamus dapibus ante at metus pellentesque, ac feugiat elit maximus. Nullam non luctus libero. Sed at lectus consectetur, aliquet enim quis, semper nisi. Cras bibendum neque et tortor posuere luctus. Donec mattis consequat justo sed porta. Vestibulum id viverra massa. Aliquam quis venenatis eros.</p><p class=\"ql-align-justify\">Aenean vitae neque a lorem dictum vestibulum a non neque. Quisque in tellus feugiat, semper tortor nec, congue metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec molestie nulla a placerat volutpat. Integer rutrum dapibus est quis tincidunt. Sed vitae laoreet lorem. Sed purus sapien, eleifend condimentum dolor facilisis, gravida maximus diam.</p><p class=\"ql-align-justify\">Nulla lacinia varius risus volutpat laoreet. Phasellus eget finibus tellus, eget congue libero. Praesent aliquam turpis id metus consequat efficitur ornare quis arcu. Proin nec elit sapien. Duis non augue molestie, convallis diam non, pharetra nulla. Sed a faucibus lacus. Fusce maximus vitae ipsum ut egestas. Duis enim arcu, sollicitudin ac erat nec, pharetra pretium lectus. Cras nunc leo, suscipit ac molestie id, egestas ut lacus. Nullam et leo non neque ornare iaculis lobortis nec ex. Donec maximus ante id ipsum tristique, vitae volutpat nibh pharetra. Aliquam rhoncus et diam lacinia mattis. Morbi euismod quis nibh quis euismod. Praesent dapibus ipsum sed nunc cursus, vel scelerisque metus facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p><p><br></p>",
+      "comments": [
+        {
+          "username": "Pavana",
+          "comment": "Amazing Work"
+        }
+      ]
+    }
+  ]
+}

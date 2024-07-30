@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="content-wrapper" *ngIf="blogService.blogData.length>0">
+        <div class="title">{{blogService.blogData[blogID].title}}
+        </div>
+            <div class="content" [innerHTML]="blogService.blogData[blogID].content">
+        </div>
+        <div class="author">
+            Written by {{blogService.blogData[blogID].author}}
+        </div>
+        <div class="comments">
+            <span class="comment" *ngFor="let comment of blogService.blogData[blogID].comments">
+                <span class="uname">{{comment.username}}</span>
+                <span class="comment">{{comment.comment}}</span></span>
+        </div>
+        <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="username">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Comment</mat-label>
+            <input matInput [(ngModel)]="comment">
+        </mat-form-field>
+        <button mat-button class="comment-button" (click)="addComment()">Comment</button>
+    </div>
+</div>
